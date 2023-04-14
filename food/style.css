@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    /* background: rgb(241,147,99);
+    background: linear-gradient(90deg, rgba(241,147,99,1) 25%, rgba(243,89,90,1) 100%);
+    font-family: 'Dongle', sans-serif; */
+}
+
+:root{
+    --cor-vermelha:#F55257;
+    --cor-laranja: #EF9161;
+    --cor-verde-agua:#6EE5C6 ;
+    --cor-amarelo-limao: #E1FFC1;
+    --cor-branquinho:#DFFDC0;
+}
+
+header {
+    background-color: var(--cor-vermelha);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+header img{
+    width: 130px
+}
+
+header .NavHeader {
+    justify-content: end;
+    display: flex;
+    align-items: center;
+}
+
+header .NavHeader a{
+    font-size: 15px;
+}
+    
+header .NavHeader a{
+    text-decoration: none;
+    color: var(--cor-amarelo-limao);
+    padding: 15px;
+}
+
+header .NavHeader a:hover {
+    background-color:#f19363;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+}
+
+header .NavHeader i{
+    color: var(--cor-amarelo-limao);
+}
+
+/*              BARRA DE PESQUISA                */
+
+.container-input {
+    position: relative;
+  }
+  
+  .input {
+    width: 600px;
+    padding: 1px 0px 1px 40px;
+    border-radius: 10px;
+    border: solid 0.5px #333;
+    outline: none;
+    
+  }
+  
+  .container-input svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+  }
+  
+/*              MEIO                */
+
+.quadrado-cima{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 10px;
+}
+
+.meio{
+    text-align: center;
+    padding: 20px;
+}
+
+.cinza{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 280px;
+}
+
+.cinza:hover{
+    background-color: #f19363;
+    color: white;
+    border-radius: 15px;
+}
+
+.cinza:hover .icon i{
+    color: white;
+}
+
+.icon i{
+    font-size: 55px;
+    color: #EF9161;
+}
+
+.icon{
+    padding: 10px;
+}
